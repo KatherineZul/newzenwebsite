@@ -1,0 +1,482 @@
+html{
+    background-color: pink;
+    font-family: "new-zen, sans-serif";
+}
+
+
+
+
+
+
+body {
+            font-family: "new-zen", sans-serif;
+            margin: 0;
+            padding: 0;
+            font-family: "new-zen", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 24px;
+color: #ff0054;
+        }
+
+        header {
+            background-color: #ff0000;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 1em;
+            font-family: "new-zen", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+           
+        }
+
+        nav {
+            background-color: #eee;
+            padding: 1em;
+        }
+
+        section {
+            padding: 1em;
+        }
+
+        article {
+            margin-bottom: 1em;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+
+        body {
+            font-family: "new-zen", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: pink;
+            text-align: center;
+            padding: 1em;
+            font-family: "new-zen", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav li {
+            display: inline;
+            margin-right: 15px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        
+
+
+
+
+
+
+
+
+        body {
+            margin: 40px;
+          }
+          
+          .sidebar {
+            grid-area: sidebar;
+           
+          }
+          
+          .content {
+            grid-area: content;
+            position: relative;
+          }
+          
+          .header {
+            grid-area: header;
+          }
+          
+          .footer {
+            grid-area: footer;
+          }
+          
+          .wrapper {
+              display: grid;
+              grid-gap: 10px;
+              grid-template-columns:repeat(auto-fill,minmax (11rem, auto));
+              grid-auto-rows: minmax(12 rem, auto);
+              grid-gap: 1em;
+              grid-template-areas:
+              "sidebar content content"
+              "footer  footer  footer";
+              color: #444;
+            }
+
+
+            .wrapper .content {
+                background-color: pink;
+                color: #ff0054;
+            }
+          
+          
+          .box {
+            background-color: #ff0054;
+            color:pink;
+            border-radius: 5px;
+            padding: 227px;
+            font-size: 24px;
+            
+          }
+
+          .box h2{
+            text-align: center;
+          }
+
+
+          
+          
+          
+          .topleft {
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+          
+          .topright {
+            position: absolute;
+            top: 0;
+            right: 0;
+          }
+          
+          .bottomleft {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+          }
+          
+          .bottomright {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+          }
+          
+
+
+
+
+
+          body {
+            font-family: "new-zen", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .full-screen-container {
+            width: 100vw; /* 100% of the viewport width */
+            height: 100vh; /* 100% of the viewport height */
+            background-color: #ff0054;
+            color: pink;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 200px;
+            margin-top: 46px;
+            font-family: "new-zen", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+      
+
+        .container {
+            display: grid;
+            width: 100%;
+            height: 100%;
+            grid-template-areas: "header header header"
+            "content content content";
+            grid-template-columns: 120px 4fr 1fr;
+            grid-template-rows: 160px 1fr;
+          }
+          .container > div {
+            border: 1px  #ff0054;
+          }
+          
+          .header {
+            grid-area: header;
+            color: #ff0054;
+        text-align: center;
+        font-size: 30px;
+          .content {
+            grid-area: content;
+          }
+        }
+
+          .typecontent {
+            grid-area: content;
+            background-color: #ff0054;
+            display: grid;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            padding-right: 20px;
+            padding-left: 20px;
+            height: 300px;
+            width: auto;
+            font-size: 30px;
+            text-align: center;
+            color: pink;
+            
+          }
+
+
+          .paragraph{
+            color: #ff0054;
+            font-size: 170px;
+            overflow: hidden;
+            white-space: nowrap;
+            word-break: break-all;
+            text-overflow: ellipsis;
+            font-family: "new-zen", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+          }
+          
+
+
+
+
+
+
+
+
+
+
+
+          body {
+            font-family: "new-zen", sans-serif;
+            margin: 0;
+            padding: 0;
+            font-family: "new-zen", sans-serif;
+font-weight: 700;
+font-style: normal;
+        }
+        
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr; 
+            height: 100vh; 
+        }
+        
+        .box-left h2{
+            text-align: center;
+            color: #ff0054;
+            font-family: "new-zen", sans-serif;
+font-weight: 700;
+font-style: normal;
+            
+        }
+
+        .box-left{
+
+            color: #ff0054;
+            font-size: 24px;
+        }
+        .box-right {
+                --r: 56px; /* control the size */
+                --c1: #ff0054 /*color 1*/ 99%,#0000 101%;
+                --c2: pink /*color 2*/ 99%,#0000 101%;
+                
+                --s:calc(var(--r)*.866);  /* .866 = cos(30deg) */
+                --g0:radial-gradient(var(--r),var(--c1));
+                --g1:radial-gradient(var(--r),var(--c2));
+                --f:radial-gradient(var(--r) at calc(100% + var(--s)) 50%,var(--c1));
+                --p:radial-gradient(var(--r) at 100% 50%,var(--c2));
+                background:
+                  var(--f) 0 calc(-5*var(--r)/2),
+                  var(--f) calc(-2*var(--s)) calc(var(--r)/2),
+                  var(--p) 0 calc(-2*var(--r)),
+                  var(--g0) var(--s) calc(-5*var(--r)/2),
+                  var(--g1) var(--s) calc( 5*var(--r)/2),
+                  radial-gradient(var(--r) at 100% 100%,var(--c1)) 0 calc(-1*var(--r)),   
+                  radial-gradient(var(--r) at 0%   50% ,var(--c1)) 0 calc(-4*var(--r)),
+                  var(--g1) calc(-1*var(--s)) calc(-7*var(--r)/2),
+                  var(--g0) calc(-1*var(--s)) calc(-5*var(--r)/2),
+                  var(--p) calc(-2*var(--s)) var(--r),
+                  var(--g0) calc(-1*var(--s)) calc(var(--r)/ 2),
+                  var(--g1) calc(-1*var(--s)) calc(var(--r)/-2),
+                  var(--g0) 0 calc(-1*var(--r)),
+                  var(--g1) var(--s) calc(var(--r)/-2),
+                  var(--g0) var(--s) calc(var(--r)/ 2) 
+                  pink; /*color 2 again here */
+                background-size: calc(4*var(--s)) calc(6*var(--r));
+              }
+              
+        
+        .box-left {
+        }
+        
+        .box-right {
+            
+        }
+
+
+      
+
+
+
+
+
+
+
+
+
+        .container {  display: grid;
+            grid-template-columns: 300px 300px 300px 300px 300px 300px;
+            grid-template-rows: 300px 300px 300px;
+            gap: 36px 33px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              "New-Zen-1 New-Zen-2 New-Zen-3 New-Zen-4 . ."
+              "New-Zen-5 New-Zen-6 New-Zen-7 New-Zen-8 . ."
+              "New-Zen-9 New-Zen-10 New-Zen-11 New-Zen-12 . .";
+          }
+          
+          .New-Zen-1 { grid-area: New-Zen-1;
+        background-color: #ff0054; }
+          
+          .New-Zen-2 { grid-area: New-Zen-2;
+            background-color: #ff0054;}
+          
+          .New-Zen-3 { grid-area: New-Zen-3;
+            background-color: #ff0054; }
+          
+          .New-Zen-4 { grid-area: New-Zen-4;
+            background-color: #ff0054; }
+          
+          .New-Zen-5 { grid-area: New-Zen-5;
+            background-color: #ff0054; }
+          
+          .New-Zen-6 { grid-area: New-Zen-6;
+            background-color: #ff0054; }
+          
+          .New-Zen-7 { grid-area: New-Zen-7;
+            background-color: #ff0054; }
+          
+          .New-Zen-8 { grid-area: New-Zen-8;
+            background-color: #ff0054; }
+          
+          .New-Zen-9 { grid-area: New-Zen-9; 
+            background-color: #ff0054;}
+          
+          .New-Zen-10 { grid-area: New-Zen-10;
+            background-color: #ff0054; }
+          
+          .New-Zen-11 { grid-area: New-Zen-11; 
+            background-color: #ff0054;}
+          
+          .New-Zen-12 { grid-area: New-Zen-12;
+            background-color: #ff0054; }
+          
+
+
+
+
+
+            body {
+              font-family: "new-zen", sans-serif;
+              margin: 0;
+              padding: 0;
+          }
+          
+          .grid-container {
+              display: grid;
+              grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+              height: 100vh; /* 100% of the viewport height */
+          }
+          
+          .blank,
+          .About {
+              padding: 20px;
+          }
+          
+          .blank{
+            --r: 56px; /* control the size */
+                --c1: #ff0054 /*color 1*/ 99%,#0000 101%;
+                --c2: pink /*color 2*/ 99%,#0000 101%;
+                
+                --s:calc(var(--r)*.866);  /* .866 = cos(30deg) */
+                --g0:radial-gradient(var(--r),var(--c1));
+                --g1:radial-gradient(var(--r),var(--c2));
+                --f:radial-gradient(var(--r) at calc(100% + var(--s)) 50%,var(--c1));
+                --p:radial-gradient(var(--r) at 100% 50%,var(--c2));
+                background:
+                  var(--f) 0 calc(-5*var(--r)/2),
+                  var(--f) calc(-2*var(--s)) calc(var(--r)/2),
+                  var(--p) 0 calc(-2*var(--r)),
+                  var(--g0) var(--s) calc(-5*var(--r)/2),
+                  var(--g1) var(--s) calc( 5*var(--r)/2),
+                  radial-gradient(var(--r) at 100% 100%,var(--c1)) 0 calc(-1*var(--r)),   
+                  radial-gradient(var(--r) at 0%   50% ,var(--c1)) 0 calc(-4*var(--r)),
+                  var(--g1) calc(-1*var(--s)) calc(-7*var(--r)/2),
+                  var(--g0) calc(-1*var(--s)) calc(-5*var(--r)/2),
+                  var(--p) calc(-2*var(--s)) var(--r),
+                  var(--g0) calc(-1*var(--s)) calc(var(--r)/ 2),
+                  var(--g1) calc(-1*var(--s)) calc(var(--r)/-2),
+                  var(--g0) 0 calc(-1*var(--r)),
+                  var(--g1) var(--s) calc(var(--r)/-2),
+                  var(--g0) var(--s) calc(var(--r)/ 2) 
+                  pink; /*color 2 again here */
+                background-size: calc(4*var(--s)) calc(6*var(--r));
+              }
+          
+          
+          .About h2{
+          color: #ff0054;
+          text-align: center;
+          font-family: "new-zen", sans-serif;
+
+          }
+
+
+
+
+
+
+
+
+          .container {  display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.3fr 1.7fr;
+            gap: 102px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+              "header"
+              "content";
+          }
+          
+          .header { grid-area: header;
+          color: #ff0054;
+          font-family: "new-zen", sans-serif;
+          font-weight: 700;
+          font-style: normal; }
+          
+          
+          .content { grid-area: content;
+          background-color: #ff0054; 
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr;
+          }
+            
